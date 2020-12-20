@@ -3,3 +3,26 @@ stack1:stack.h teststack.c stack.c
 
 clean:
 	rm stack1
+	
+#search
+search:search.c search.h searchtest.c
+      g++ search.c searchtest.c -o search
+      
+clean: 
+        rm search
+
+#queue
+queue1:queue1.c queue1test.c queue1.h
+     gcc queue1.c queuetest.c -o queue1
+
+clean:
+        rm queue1
+
+#deque 
+queue3:queue3.c queue3test.c queue3.h
+      g++ queue3.c queue3test.c -o queue3
+      
+clean:
+        rm queue3      
+      
+      

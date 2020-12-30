@@ -26,3 +26,9 @@ clean:
         rm queue3      
       
       
+#二叉树的遍历
+binarytree:binarytree.c binarytree.h binarytreetest.c
+	g++ binarytreetest.c binarytree.c -o binarytree
+	
+clean:rm binarytree
+ 

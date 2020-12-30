@@ -30,5 +30,12 @@ clean:
 binarytree:binarytree.c binarytree.h binarytreetest.c
 	g++ binarytreetest.c binarytree.c -o binarytree
 	
-clean:rm binarytree
+clean:
+	rm binarytree
  
+#hfmtree1
+hfmtree1:hfmtree1.c hfmtree1test.c hfmtree1.h
+	g++ hfmtree1.c hfmtree1test.c -o hfmtree1
+
+clean:
+	rm hfmtree1

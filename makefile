@@ -39,3 +39,10 @@ hfmtree1:hfmtree1.c hfmtree1test.c hfmtree1.h
 
 clean:
 	rm hfmtree1
+
+#图的遍历
+graph:graph.h graph.c graphtest.c
+	g++ graph.c graphtest.c -o graph
+	
+clean:
+	rm graph
